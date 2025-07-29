@@ -1,0 +1,138 @@
+/* universal selector  */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* styles for the whole body  */
+
+body {
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main items in the body */
+ 
+.card {
+    box-shadow: 10px 10px 0px black;
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 1440px;
+}
+
+@media screen {
+    .card {
+        max-width: 1440px;
+        height: auto;
+    }
+}
+
+@media screen {
+    .card {
+        max-width: 1024px;
+        height: auto;
+    }
+}
+
+@media screen {
+    .card {
+        max-width: 768px;
+        height: auto;
+    }
+}
+
+
+@media screen {
+    .card {
+        max-width: 425px;
+        height: auto;
+    }
+}
+
+@media screen {
+    .card {
+        max-width: 375px;
+        height: auto;
+    }
+}
+
+
+
+.card img {
+    margin: 15px; 
+    border-radius: 15px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin: 30px 15px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    border: hsl(47, 88%, 63%);
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover {
+    color: blue;
+}
+
+.card h3 {
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.card h1 {
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+h1  a{
+    text-decoration: none;
+    color: hsl(47, 88%, 63%);;
+}
+
+h1 a:hover {
+    color: blue;
+}
+
+.card p {
+    margin-left: 15px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: rgb(235, 229, 229) solid 1px;
+    gap: 20px;
+}
+
+.contact h3 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+.attribution {
+    margin: 30px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
