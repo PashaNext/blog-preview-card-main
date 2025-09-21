@@ -19,7 +19,7 @@
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flex-box
 - CSS Grid
 - Mobile-first workflow
 
